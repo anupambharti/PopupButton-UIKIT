@@ -58,16 +58,48 @@
 		F1C5C2192A65D48700239D6B /* PopupButton */ = {
 			isa = PBXGroup;
 			children = (
-				F1C5C21A2A65D48700239D6B /* AppDelegate.swift */,
-				F1C5C21C2A65D48700239D6B /* SceneDelegate.swift */,
-				F1C5C21E2A65D48700239D6B /* ViewController.swift */,
-				F1C5C2202A65D48700239D6B /* Main.storyboard */,
-				F1C5C2262A65D48E00239D6B /* Assets.xcassets */,
-				F1C5C2282A65D48E00239D6B /* LaunchScreen.storyboard */,
+				F1C5C2372A65DBBB00239D6B /* Initializers */,
+				F1C5C2362A65DBB300239D6B /* Controllers */,
+				F1C5C2382A65DBD700239D6B /* Views */,
+				F1C5C2392A65DBEA00239D6B /* Resources */,
 				F1C5C22B2A65D48E00239D6B /* Info.plist */,
-				F1C5C2232A65D48700239D6B /* PopupButton.xcdatamodeld */,
 			);
 			path = PopupButton;
+			sourceTree = "<group>";
+		};
+		F1C5C2362A65DBB300239D6B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F1C5C21E2A65D48700239D6B /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F1C5C2372A65DBBB00239D6B /* Initializers */ = {
+			isa = PBXGroup;
+			children = (
+				F1C5C21A2A65D48700239D6B /* AppDelegate.swift */,
+				F1C5C21C2A65D48700239D6B /* SceneDelegate.swift */,
+			);
+			path = Initializers;
+			sourceTree = "<group>";
+		};
+		F1C5C2382A65DBD700239D6B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1C5C2202A65D48700239D6B /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F1C5C2392A65DBEA00239D6B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1C5C2262A65D48E00239D6B /* Assets.xcassets */,
+				F1C5C2282A65D48E00239D6B /* LaunchScreen.storyboard */,
+				F1C5C2232A65D48700239D6B /* PopupButton.xcdatamodeld */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,8 +334,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,8 +361,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
